@@ -25,19 +25,24 @@ symbols_values= {
 
 }
 
+
 def check_winnings(columns, lines, bet, values):
     winnings = 0
     winning_lines = []
+    
+   
     for line in range(lines):
-        symbol = columns[0][line]
+        symbol = columns[0][line]  
+        
+       
         for column in columns:
-            symbol_to_check = column[line]
-        if symbol != symbol_to_check:
-                break
-        else:
+            if column[line] != symbol:
+                break  
+            
             winnings += values[symbol] * bet
-            winning_lines.append(line + 1)
-    return winnings,winning_lines
+            winning_lines.append(line + 1)  
+
+    return winnings, winning_lineses
 
 
 # Generate the outcome of Slot-Machine
