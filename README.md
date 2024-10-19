@@ -12,7 +12,7 @@ Balance Management: Ensures users can't bet more than their balance and prompts 
 
 # Technologies Used:
 Python (Functions, Loops, Conditional Logic) and 
-random module for generating random outcomes
+Random module for generating random outcomes
 
 # How to Play:
 Run the script.
