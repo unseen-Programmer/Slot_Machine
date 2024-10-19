@@ -11,7 +11,7 @@ Winning Calculation: Winnings are calculated based on matching symbols on the be
 Balance Management: Ensures users can't bet more than their balance and prompts them to deposit more if needed.
 
 # Technologies Used:
-Python (Functions, Loops, Conditional Logic)
+Python (Functions, Loops, Conditional Logic) and 
 random module for generating random outcomes
 
 # How to Play:
